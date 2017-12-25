@@ -5,6 +5,7 @@ RUN apt-get update && apt-get install -y \
 	build-essential \
 	ca-certificates \
 	git \
+    gtk+3.0 \
 	qmlscene \
 	qt5-qmake \
 	qt5-default \
