@@ -5,16 +5,16 @@ RUN apt-get update && apt-get install -y \
 	build-essential \
 	ca-certificates \
 	git \
-    gtk+3.0 \
-	qmlscene \
-	qt5-qmake \
-	qt5-default \
-	qtdeclarative5-dev \
-	qml-module-qtquick-controls \
-	qml-module-qtgraphicaleffects \
-	qml-module-qtquick-dialogs \
-	qml-module-qtquick-localstorage \
-	qml-module-qtquick-window2 \
+    libgtk-3-dev \
+	# qmlscene \
+	# qt5-qmake \
+	# qt5-default \
+	# qtdeclarative5-dev \
+	# qml-module-qtquick-controls \
+	# qml-module-qtgraphicaleffects \
+	# qml-module-qtquick-dialogs \
+	# qml-module-qtquick-localstorage \
+	# qml-module-qtquick-window2 \
 	--no-install-recommends \
 	&& rm -rf /var/lib/apt/lists/*
 
